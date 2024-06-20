@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.top {
+    background: #1f2937;
+    flex: 0.25;
+}
+
+.content-1 {
+    background: #f9faf8;
+    flex: 0.25;
+}
+
+.content-2 {
+    background: #e5e7eb;
+    flex: 0.25;
+}
+
+.bottom {
+    background: #f9faf8;
+    flex: 0.25;
+}

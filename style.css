@@ -12,6 +12,8 @@ body {
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
+    margin-top: -15px;
+    margin-bottom: -60px;
 }
 
 .header-logo p {
@@ -87,7 +89,8 @@ button {
 
 .top {
     background: #1f2937;
-    flex: 0.25;
+    flex: 1;
+    max-height: 29vh;
 }
 
 .top-content {
@@ -96,15 +99,15 @@ button {
 
 .content-1 {
     background: #f9faf8;
-    flex: 0.25;
+    flex: 1;
 }
 
 .content-2 {
     background: #e5e7eb;
-    flex: 0.25;
+    flex: 1;
 }
 
 .bottom {
     background: #f9faf8;
-    flex: 0.25;
+    flex: 1;
 }

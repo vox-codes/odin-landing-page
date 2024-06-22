@@ -92,11 +92,16 @@ button, .cta-button {
     flex: 1;
     max-height: 30vh;
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
 }
 
 .top-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .content-1 {
@@ -120,7 +125,7 @@ button, .cta-button {
 .content-1-bottom {
     display: flex;
     justify-content: center;
-    margin-top: -21px;
+    margin-top: -15px;
     gap: 14px;
     padding-left: 100px;
     padding-right: 100px;
@@ -161,7 +166,7 @@ button, .cta-button {
 }
 
 .quote {
-    margin-top: 15px;
+    margin-top: 30px;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
@@ -169,7 +174,7 @@ button, .cta-button {
 }
 
 .author {
-    margin-top: -45px;
+    margin-top: -30px;
     margin-right: 40px;
     font-size: 18px;
     font-weight: 800;
@@ -181,7 +186,8 @@ button, .cta-button {
     background: #f9faf8;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
@@ -189,19 +195,23 @@ button, .cta-button {
     flex: 0.9;
     display: flex;
     justify-content: center;
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-top: 15px;
-    margin-bottom: 15px;
     background: #3882f6;
     border-radius: 5px;
     gap: 60px;
     align-items: center;
+    max-width: 800px;
+    max-height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footer {
     flex: 0.1;
     background: #1f2937;
+    display: flex;
+    justify-content: center;
 }
 
 .cta-title {

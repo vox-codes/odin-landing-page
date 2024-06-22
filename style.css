@@ -90,7 +90,8 @@ button, .cta-button {
 .top {
     background: #1f2937;
     flex: 1;
-    max-height: 29vh;
+    max-height: 30vh;
+    margin-bottom: 0px;
 }
 
 .top-content {
@@ -188,8 +189,8 @@ button, .cta-button {
     justify-content: center;
     margin-left: 140px;
     margin-right: 140px;
-    margin-top: 30px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     background: #3882f6;
     border-radius: 5px;
     gap: 60px;

@@ -96,6 +96,7 @@ button, .cta-button {
 
 .top-content {
     display: flex;
+    justify-content: space-between;
 }
 
 .content-1 {
@@ -156,6 +157,7 @@ button, .cta-button {
     display: flex;
     flex-direction: column;
     max-height: 26vh;
+    justify-content: center;
 }
 
 .quote {
@@ -194,6 +196,7 @@ button, .cta-button {
     background: #3882f6;
     border-radius: 5px;
     gap: 60px;
+    align-items: center;
 }
 
 .footer {
@@ -216,7 +219,7 @@ button, .cta-button {
 
 .cta-button {
     outline: 2px solid #e5e7eb;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-right: 0px;
 }
 
